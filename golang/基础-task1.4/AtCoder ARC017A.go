@@ -16,9 +16,9 @@ func main() {
 	fmt.Scanln(&num)
 	ret := isPrime(num)
 	if ret == true {
-		println("YES")
+		fmt.Println("YES")
 	} else {
-		println("NO")
+		fmt.Println("NO")
 	}
 
 }
