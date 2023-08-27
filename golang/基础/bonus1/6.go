@@ -11,7 +11,7 @@ func main() {
 }
 
 func write() {
-	file, err := os.OpenFile("golang\\基础\\bonus1\\ninenine.txt", os.O_WRONLY, 0)
+	file, err := os.Create("ninenine.txt")
 	if err != nil {
 		log.Fatal(err)
 	}
